@@ -1,0 +1,148 @@
+.benefits--section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #f7f7f7;
+    padding: 100px 0 100px 0;
+
+    .benefits--position {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .benefit--box {
+        width: 100%;
+        height: auto;
+        background-color: white;
+        border-radius: 3px;
+        margin: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        padding: 20px;
+    }
+
+    .text {
+        width: 40%;
+        margin: 100px 50px 100px 50px;
+
+        h3 {
+            font-size: 36px;
+            padding-bottom: 30px;
+        }
+        
+        p {
+            font-size: 16px;
+            padding-bottom: 30px;
+            max-width: 400px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
+            line-height: 20px;
+        }
+
+        div {
+            content: '';
+            width: 70%;
+            border-radius: 4px;
+            border-top: 2px solid;
+            border-bottom: 2px solid;
+        }
+
+        .line1 {
+            border-color: #FB3B64;
+        }
+
+        .line2 {
+            border-color: #08A6E4;
+        }
+
+        .line3 {
+            border-color: #e8e9ed;
+        }
+    }
+
+    .image1, .image2, .image3 {
+        width: 60%;
+        height: 250px;
+        content: '';
+    }
+
+    .image1 {
+        background-image: url(/src/scss/assets/Macbook.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position-x: 200px;
+        z-index: 2;
+    }
+
+
+    .decoration1 {
+        width: 200px;
+        height: 200px;
+        background-color: #FB3B64;
+        border-radius: 40px;
+        transform: rotate(45deg);
+        position: absolute;
+        right: 110px;
+        top: 40px;
+        z-index: 1;
+    }
+
+    .image2 {
+        background-image: url(/src/scss/assets/iPhone.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position-x: 100px;
+        height: 300px;
+        z-index: 2;
+    }
+
+    .decoration2 {
+        width: 300px;
+        height: 300px;
+        background-color: #07ACE6;
+        border-radius: 50%;
+        position: absolute;
+        top: 20px;
+        left: 110px;
+        z-index: 1
+    }
+    
+    .last-row--box {
+        background: none;
+        padding: 0;
+
+        .last-row {
+            background-color: white;
+            width: 100%;
+            padding: 115px 50px 115px 50px;
+            margin: 0;
+        }
+
+        .image3 {
+            background-color: #55DFB4;
+            border-radius: 4px;
+            margin-left: 40px;
+            position: relative;
+            height: 388px;
+
+            .main-image {
+                background-image: url(/src/scss/assets/Trumpet.png);
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 300px;
+                height: 300px;
+                position: absolute;
+                top: 100px;
+                left: 100px;
+                
+            }
+        }
+    }
+
+}

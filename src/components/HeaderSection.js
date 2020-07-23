@@ -27,15 +27,14 @@ const HeaderSection = () => {
                         </nav>
                     </div>
                 </div>
-                <div className="main--section">
-                    <div className="main-info--box">
-                        <h1>Sell More!</h1>
-                        <h3>Open shop on our platform and increase your sales</h3>
-                        <button>Open your shop</button>
-                    </div>
-                </div>
             </header>
-
+            <section className="main--section">
+                <div className="main-info--box">
+                    <h1>Sell More!</h1>
+                    <h3>Open shop on our platform and increase your sales</h3>
+                    <button>Open your shop</button>
+                </div>
+            </section>
         </>
     );
 };

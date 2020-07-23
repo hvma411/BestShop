@@ -10,13 +10,17 @@ import {
 import './scss/main.scss';
 
 import HeaderSection from './components/HeaderSection';
-import WhyUs from './components/WhyUs';
+import WhyUsSection from './components/WhyUs';
+import BenefitsSection from './components/BenefitsSection';
 
 
 const App = () => {
     return (
-        <HeaderSection />
-
+        <>
+            <HeaderSection />
+            <WhyUsSection />
+            <BenefitsSection />
+        </>
     );
 };
 

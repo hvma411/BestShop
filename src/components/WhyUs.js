@@ -10,7 +10,7 @@ import {
 
 const WhyUsSection = () => {
     return (
-        <section className="why-us--section">
+        <section className="why-us--section" id="why-us">
             <h3>The most popular sales platform in country</h3>
             <div className="all-icons--box">
               <div className="icon--box">

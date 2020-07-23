@@ -10,7 +10,7 @@ import {
 
 const Prices = () => {
     return (
-        <section className="prices--section">
+        <section className="prices--section" id="prices">
             <div className="prices--box container">
                 <h3 className="prices--title">Pricing</h3>
                 <div className="options--box">

@@ -10,7 +10,7 @@ import {
 
 const BenefitsSection = () => {
     return (
-        <section className="benefits--section">
+        <section className="benefits--section" id="benefits">
             <div className="benefits--position container">
                 <div className="benefit--box">
                     <div className="text">

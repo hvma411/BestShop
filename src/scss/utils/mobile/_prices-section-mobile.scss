@@ -1,0 +1,546 @@
+@media screen and (max-width: 1024px) and (orientation: portrait) {
+    .prices--section {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        .prices--box {
+            height: 100%;
+    
+            .prices--title {
+                font-size: 36px;
+                text-align: center;
+                padding-top: 50px;
+                padding-bottom: 50px;
+            }
+        }
+    
+        .options--box {
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-bottom: 100px;
+    
+            .option--box {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                border: 2px solid;
+                border-radius: 25px;
+                padding: 30px 60px 10px 60px;
+                position: relative;
+                margin-bottom: 60px;
+    
+                h4 {
+                    font-size: 24px;
+                    font-weight: 600;
+                }
+    
+                h3 {
+                    font-size: 53px;
+                    font-family: 'Open Sans', sans-serif;
+                    padding-bottom: 10px;
+                }
+    
+                h5 {
+                    font-size: 12px;
+                }
+    
+                ul {
+                    padding-top: 60px;
+                    padding-bottom: 80px;
+                    li {
+                        font-size: 16px;
+                        font-family: 'Open Sans', sans-serif;
+                        margin: 10px;
+                        padding: 5px;
+                        text-align: center;
+                    }
+                }
+    
+                button {
+                    position: absolute;
+                    bottom: -25px;
+                    border-radius: 20px;
+                    border: none;
+                    outline: none;
+                    color: white;
+                    font-size: 16px;
+                    font-weight: 600;
+                    cursor: pointer;
+                    padding: 15px 60px 15px 60px;
+                }
+    
+                .price1 {
+                    color: #FB3B64;
+                }
+    
+                .price2 {
+                    color: #07ACE6;
+                }
+    
+                .price3 {
+                    color: #55DFB4;
+                }
+            }
+    
+            .box1 {
+                border-color: #FB3B64;
+    
+                ul {
+                    li {
+                        list-style-image: url(/src/scss/assets/Ckechmark-1.svg);
+                        list-style-position: inside;
+                    }
+    
+                    li:nth-child(4), li:nth-child(5) {
+                        list-style-image: url(/src/scss/assets/Close.svg);
+                    }
+                }
+    
+                button {
+                    background-color: #FB3B64;
+                }
+            }
+    
+            .bigger {
+                border-color: #07ACE6;
+    
+                h4 {
+                    margin-top: 20px;
+                }
+    
+                ul {
+                    margin-bottom: 20px;
+    
+                    li {
+                        list-style-image: url(/src/scss/assets/Ckechmark-1.svg);
+                        list-style-position: inside;
+                    }
+    
+                    li:nth-child(5) {
+                        list-style-image: url(/src/scss/assets/Close.svg);
+                    }
+                }
+    
+                button {
+                    background-color: #07ACE6;
+                }
+            }
+    
+            .box3 {
+                border-color: #55DFB4;
+    
+                ul {
+                    li {
+                        list-style-image: url(/src/scss/assets/Ckechmark-1.svg);
+                        list-style-position: inside;
+                    }
+                }
+    
+                button {
+                    background-color: #55DFB4;;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .prices--section {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        .prices--box {
+            height: 100%;
+    
+            .prices--title {
+                font-size: 36px;
+                text-align: center;
+                padding-top: 50px;
+                padding-bottom: 50px;
+            }
+        }
+    
+        .options--box {
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-bottom: 50px;
+    
+            .option--box {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                border: 2px solid;
+                border-radius: 25px;
+                padding: 20px 50px 10px 50px;
+                position: relative;
+                margin-bottom: 60px;
+
+                ul {
+                    padding-top: 30px;
+                    padding-bottom: 50px;
+                }
+            }
+            .box3 {
+                border-color: #55DFB4;
+    
+                ul {
+                    li {
+                        list-style-image: url(/src/scss/assets/Ckechmark-1.svg);
+                        list-style-position: inside;
+                    }
+                }
+    
+                button {
+                    background-color: #55DFB4;;
+                }
+            }
+            .bigger {
+                border-color: #07ACE6;
+    
+                h4 {
+                    margin-top: 20px;
+                }
+    
+                ul {
+                    margin-bottom: 20px;
+    
+                    li {
+                        list-style-image: url(/src/scss/assets/Ckechmark-1.svg);
+                        list-style-position: inside;
+                    }
+    
+                    li:nth-child(5) {
+                        list-style-image: url(/src/scss/assets/Close.svg);
+                    }
+                }
+    
+                button {
+                    background-color: #07ACE6;
+                }
+            }
+            .box1 {
+                border-color: #FB3B64;
+    
+                ul {
+                    li {
+                        list-style-image: url(/src/scss/assets/Ckechmark-1.svg);
+                        list-style-position: inside;
+                    }
+    
+                    li:nth-child(4), li:nth-child(5) {
+                        list-style-image: url(/src/scss/assets/Close.svg);
+                    }
+                }
+    
+                button {
+                    background-color: #FB3B64;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 860px) and (orientation: landscape) {
+    .prices--section {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        .prices--box {
+            height: 100%;
+    
+            .prices--title {
+                font-size: 36px;
+                text-align: center;
+                padding-top: 25px;
+                padding-bottom: 40px;
+            }
+        }
+    
+        .options--box {
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: nowrap;
+            margin-bottom: 50px;
+    
+            .option--box {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                border: 2px solid;
+                border-radius: 25px;
+                padding: 10px 30px 10px 30px;
+                position: relative;
+                margin-bottom: 60px;
+
+                h4 {
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+    
+                h3 {
+                    font-size: 40px;
+                    font-family: 'Open Sans', sans-serif;
+                    padding-bottom: 10px;
+                }
+    
+                h5 {
+                    font-size: 12px;
+                }
+    
+                ul {
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+                    li {
+                        font-size: 12px;
+                        font-family: 'Open Sans', sans-serif;
+                        margin: 5px;
+                        padding: 5px;
+                        text-align: center;
+                    }
+                }
+
+                button {
+                    position: absolute;
+                    bottom: -20px;
+                    border-radius: 20px;
+                    border: none;
+                    outline: none;
+                    color: white;
+                    font-size: 16px;
+                    font-weight: 600;
+                    cursor: pointer;
+                    padding: 10px 30px 10px 30px;
+                }
+            }
+            .box1 {
+                border-color: #FB3B64;
+    
+                ul {
+                    li {
+                        list-style-image: url(/src/scss/assets/Ckechmark-1.svg);
+                        list-style-position: inside;
+                    }
+    
+                    li:nth-child(4), li:nth-child(5) {
+                        list-style-image: url(/src/scss/assets/Close.svg);
+                    }
+                }
+    
+                button {
+                    background-color: #FB3B64;
+                }
+            }
+            .bigger {
+                border-color: #07ACE6;
+    
+                h4 {
+                    margin-top: 10px;
+                }
+    
+                ul {
+                    margin-bottom: 10px;
+    
+                    li {
+                        list-style-image: url(/src/scss/assets/Ckechmark-1.svg);
+                        list-style-position: inside;
+                    }
+    
+                    li:nth-child(5) {
+                        list-style-image: url(/src/scss/assets/Close.svg);
+                    }
+                }
+    
+                button {
+                    background-color: #07ACE6;
+                }
+            }
+            .box3 {
+                border-color: #55DFB4;
+    
+                ul {
+                    li {
+                        list-style-image: url(/src/scss/assets/Ckechmark-1.svg);
+                        list-style-position: inside;
+                    }
+                }
+    
+                button {
+                    background-color: #55DFB4;;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 780px) and (max-width: 1195px) and (orientation: landscape) {
+    .prices--section {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        .prices--box {
+            height: 100%;
+    
+            .prices--title {
+                font-size: 36px;
+                text-align: center;
+                padding-top: 50px;
+                padding-bottom: 50px;
+            }
+        }
+    
+        .options--box {
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-bottom: 100px;
+    
+            .option--box {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                border: 2px solid;
+                border-radius: 25px;
+                padding: 30px 60px 10px 60px;
+                position: relative;
+                margin-bottom: 60px;
+    
+                h4 {
+                    font-size: 24px;
+                    font-weight: 600;
+                }
+    
+                h3 {
+                    font-size: 53px;
+                    font-family: 'Open Sans', sans-serif;
+                    padding-bottom: 10px;
+                }
+    
+                h5 {
+                    font-size: 12px;
+                }
+    
+                ul {
+                    padding-top: 60px;
+                    padding-bottom: 80px;
+                    li {
+                        font-size: 16px;
+                        font-family: 'Open Sans', sans-serif;
+                        margin: 10px;
+                        padding: 5px;
+                        text-align: center;
+                    }
+                }
+    
+                button {
+                    position: absolute;
+                    bottom: -25px;
+                    border-radius: 20px;
+                    border: none;
+                    outline: none;
+                    color: white;
+                    font-size: 16px;
+                    font-weight: 600;
+                    cursor: pointer;
+                    padding: 15px 60px 15px 60px;
+                }
+    
+                .price1 {
+                    color: #FB3B64;
+                }
+    
+                .price2 {
+                    color: #07ACE6;
+                }
+    
+                .price3 {
+                    color: #55DFB4;
+                }
+            }
+    
+            .box1 {
+                border-color: #FB3B64;
+    
+                ul {
+                    li {
+                        list-style-image: url(/src/scss/assets/Ckechmark-1.svg);
+                        list-style-position: inside;
+                    }
+    
+                    li:nth-child(4), li:nth-child(5) {
+                        list-style-image: url(/src/scss/assets/Close.svg);
+                    }
+                }
+    
+                button {
+                    background-color: #FB3B64;
+                }
+            }
+    
+            .bigger {
+                border-color: #07ACE6;
+    
+                h4 {
+                    margin-top: 20px;
+                }
+    
+                ul {
+                    margin-bottom: 20px;
+    
+                    li {
+                        list-style-image: url(/src/scss/assets/Ckechmark-1.svg);
+                        list-style-position: inside;
+                    }
+    
+                    li:nth-child(5) {
+                        list-style-image: url(/src/scss/assets/Close.svg);
+                    }
+                }
+    
+                button {
+                    background-color: #07ACE6;
+                }
+            }
+    
+            .box3 {
+                border-color: #55DFB4;
+    
+                ul {
+                    li {
+                        list-style-image: url(/src/scss/assets/Ckechmark-1.svg);
+                        list-style-position: inside;
+                    }
+                }
+    
+                button {
+                    background-color: #55DFB4;;
+                }
+            }
+        }
+    }
+}

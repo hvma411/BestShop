@@ -3,10 +3,10 @@ import ReactDOM from "react-dom";
 import {
   HashRouter,
   Route,
-  Link,
   Switch,
   NavLink,
 } from 'react-router-dom';
+import { Link } from 'react-scroll'
 
 const HeaderSection = () => {
     return (
@@ -19,25 +19,25 @@ const HeaderSection = () => {
                         </div>
                         <nav className="nav--box">
                             <ul>
-                                <li>WHY US?</li>
-                                <li>BENEFITS</li>
-                                <li>PRICES</li>
-                                <li>CONTACT</li>
+                                <Link to="home" smooth="true" duration={1000}><li>HOME</li></Link>
+                                <Link to="why-us" smooth="true" duration={1000}><li>WHY US?</li></Link>
+                                <Link to="benefits" smooth="true" duration={1000}><li>BENEFITS</li></Link>
+                                <Link to="prices" smooth="true" duration={1000}><li>PRICES</li></Link>
+                                <Link to="footer" smooth="true" duration={1000}><li>CONTACT</li></Link>
                             </ul>
                         </nav>
                     </div>
                 </div>
-                <div className="main--section">
-                    <div className="main-info--box">
-                        <h1>Sell more!</h1>
-                        <h3>Open shop on our platform and increase your sales</h3>
-                        <button>Open your shop</button>
-                    </div>
-                </div>
             </header>
-
+            <section className="main--section" id="home">
+                <div className="main-info--box">
+                    <h1>Sell More!</h1>
+                    <h3>Open shop on our platform and increase your sales</h3>
+                    <button>Open your shop</button>
+                </div>
+            </section>
         </>
-    )
-}
+    );
+};
 
 export default HeaderSection

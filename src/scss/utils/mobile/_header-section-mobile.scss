@@ -1,0 +1,101 @@
+@media screen and (max-width: 1024px) and (orientation: portrait) {
+    .header-bar {
+        padding-left: 30px;
+    }
+
+    .logo-nav--section {
+        .nav--box {
+            display: none;
+        }
+    }
+    .main--section {
+        height: 60vh;
+
+        .main-info--box {
+            padding-top: 60px;
+        }
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .header-bar {
+        padding-left: 10px;
+    }
+    .logo-nav--section {
+        .logo--box {
+            .logo {
+                font-size: 28px;
+                padding: 10px 10px 10px 0;
+            }
+        }
+    }
+
+
+    .main--section {
+        height: 100vh;
+        background-size: 190%;
+
+        .main-info--box {
+            button {
+                padding: 20px 50px 20px 50px;
+            }
+        }
+    }
+
+
+}
+@media screen and (max-width: 1195px) and (orientation: landscape) {
+    .header-bar {
+        padding-left: 30px;
+    }
+
+
+    .main--section {
+        height: 100vh;
+
+        .main-info--box {
+            padding-top:10px;
+        }
+    }
+}
+
+@media screen and (max-width: 860px) and (orientation: landscape) {
+    .header-bar {
+        padding-left: 30px;
+    }
+    .logo-nav--section {
+        .nav--box {
+            display: none;
+        }
+        .logo--box {
+            .logo {
+                font-size: 28px;
+                padding: 10px 10px 10px 0;
+            }
+        }
+    }
+    .main--section {
+        height: 100vh;
+        padding-top: 20px;
+
+        .main-info--box {
+            padding-top: 60px;
+            justify-content: flex-start;
+
+            h1 {
+                font-size: 36px;
+                margin-bottom: 15px;
+            }
+
+            h3 {
+                font-size: 16px;
+                margin-bottom: 15px;
+            }
+
+            button {
+                font-size: 14px;
+                padding: 10px 30px 10px 30px;
+            }
+        }
+    }
+}

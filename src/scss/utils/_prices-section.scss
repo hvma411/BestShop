@@ -1,17 +1,18 @@
 .prices--section {
     width: 100%;
-    height: 100vh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 150px;
 
     .prices--box {
-        height: 100vh;
+        height: 100%;
 
         .prices--title {
             font-size: 36px;
             text-align: center;
-            padding-top: 150px;
+            padding-top: 100px;
             padding-bottom: 50px;
         }
     }

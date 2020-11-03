@@ -1,0 +1,53 @@
+@media screen and (max-width: 1024px) and (orientation: portrait) {
+    .why-us--section {
+
+        .all-icons--box {
+            flex-wrap: wrap;
+            padding-top: 50px;
+        }
+
+        .icon--box {
+            margin: 20px;
+            width: 100px;
+        }
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .why-us--section {
+        
+        h3 {
+            padding-top: 50px;
+        }
+
+        .all-icons--box {
+            flex-wrap: wrap;
+        }
+
+        .icon--box {
+            margin: 20px;
+            width: 200px;
+        }
+    }
+}
+
+@media screen and (max-width: 860px) and (orientation: landscape) {
+    .why-us--section {
+
+        h3 {
+            padding-top: 50px;
+            font-size: 30px;
+        }
+
+        .all-icons--box {
+            flex-wrap: wrap;
+            padding: 50px;
+            padding-top: 20px;
+        }
+
+        .icon--box {
+            margin: 20px;
+            width: 100px;
+        }
+    }
+}

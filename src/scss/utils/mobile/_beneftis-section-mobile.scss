@@ -1,0 +1,645 @@
+@media screen and (max-width: 1024px) and (orientation: portrait) {
+    .benefits--section {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f7f7f7;
+        padding: 100px 0 100px 0;
+    
+        .benefits--position {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .benefit--box {
+            width: 100%;
+            height: 33%;
+            background-color: white;
+            border-radius: 3px;
+            margin: 20px 0 20px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            padding: 0px;
+        }
+    
+        .text {
+            width: 40%;
+            margin: 80px 20px 80px 20px;
+    
+            h3 {
+                font-size: 32px;
+                padding-bottom: 15px;
+            }
+            
+            p {
+                font-size: 14px;
+                padding-bottom: 10px;
+                max-width: 400px;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 400;
+                line-height: 20px;
+            }
+    
+            div {
+                content: '';
+                width: 70%;
+                border-radius: 4px;
+                border-top: 2px solid;
+                border-bottom: 2px solid;
+            }
+    
+            .line1 {
+                border-color: #FB3B64;
+            }
+    
+            .line2 {
+                border-color: #08A6E4;
+            }
+    
+            .line3 {
+                border-color: #e8e9ed;
+            }
+        }
+    
+        .image1, .image2, .image3 {
+            width: 60%;
+            height: 70%;
+            content: '';
+        }
+    
+        .image1 {
+            background-image: url(/src/scss/assets/Macbook.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position-x: center;
+            z-index: 2;
+        }
+    
+    
+        .decoration1 {
+            width: 200px;
+            height: 50%;
+            background-color: #FB3B64;
+            border-radius: 40px;
+            transform: rotate(45deg);
+            position: absolute;
+            right: 50px;
+            top: 40px;
+            z-index: 1;
+        }
+    
+        .image2 {
+            background-image: url(/src/scss/assets/iPhone.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position-x: 100px;
+            height: 80%;
+            z-index: 2;
+        }
+    
+        .decoration2 {
+            width: 230px;
+            height: 230px;
+            background-color: #07ACE6;
+            border-radius: 50%;
+            position: absolute;
+            top: 20px;
+            left: 110px;
+            z-index: 1
+        }
+        
+        .last-row--box {
+            background: none;
+            padding: 0;
+    
+            .last-row {
+                background-color: white;
+                width: 100%;
+                height: 100%;
+                padding: 40px 20px 80px 20px;
+                margin: 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+    
+            .image3 {
+                background-color: #55DFB4;
+                border-radius: 4px;
+                margin-left: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+    
+                .main-image {
+                    background-image: url(/src/scss/assets/Trumpet.png);
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    width: 300px;
+                    height: 200px;
+                    position: static;
+                    background-position-y: 20px;
+                    background-position-x: 10px;
+
+                    
+                }
+            }
+        }
+    
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .benefits--section {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f7f7f7;
+        padding: 0;
+        padding: 20px 0 20px 0;
+    
+        .benefits--position {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+    
+        .benefit--box {
+            width: 100%;
+            height: 210px;
+            background-color: white;
+            border-radius: 3px;
+            margin: 20px 0 20px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            padding: 0px;
+        }
+    
+        .text {
+            width: 60%;
+            margin: 0;
+            padding: 20px 20px 20px 20px ;
+    
+            h3 {
+                font-size: 13px;
+                font-weight: 600;
+                padding-bottom: 10px;
+            }
+            
+            p {
+                font-size: 10px;
+                padding-bottom: 10px;
+                max-width: 400px;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 400;
+                line-height: 20px;
+            }
+    
+            div {
+                content: '';
+                width: 70%;
+                border-radius: 4px;
+                border-top: 2px solid;
+                border-bottom: 2px solid;
+            }
+    
+            .line1 {
+                border-color: #FB3B64;
+            }
+    
+            .line2 {
+                border-color: #08A6E4;
+            }
+    
+            .line3 {
+                border-color: #e8e9ed;
+            }
+        }
+    
+        .image1, .image2, .image3 {
+            width: 60%;
+            height: 180px;
+            content: '';
+        }
+    
+        .image1 {
+            background-image: url(/src/scss/assets/Macbook.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            z-index: 2;
+        }
+    
+    
+        .decoration1 {
+            width: 50px;
+            height: 50px;
+            background-color: #FB3B64;
+            border-radius: 10px;
+            transform: rotate(45deg);
+            position: absolute;
+            right: 10px;
+            top: 40px;
+            z-index: 1;
+            
+        }
+    
+        .image2 {
+            background-image: url(/src/scss/assets/iPhone.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            z-index: 2;
+        }
+    
+        .decoration2 {
+            width: 150px;
+            height: 150px;
+            background-color: #07ACE6;
+            border-radius: 50%;
+            position: absolute;
+            top: 25px;
+            left: 5px;
+            z-index: 1;
+        }
+        
+        .last-row--box {
+            background: none;
+            padding: 0;
+    
+            .last-row {
+                background-color: white;
+                width: 70%;
+                height: 100%;
+                padding: 20px;
+                margin: 0;
+                border-top-right-radius: 4px;
+                border-bottom-right-radius: 4px;
+            }
+    
+            .image3 {
+                background-color: #55DFB4;
+                border-radius: 0;
+                border-top-left-radius: 4px;
+                border-bottom-left-radius: 4px;
+                margin-left: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+    
+                .main-image {
+                    background-image: url(/src/scss/assets/Trumpet.png);
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    width: 100%;
+                    height: 120px;
+                    background-position-y: 15px;
+                    position: static;
+                    
+                }
+            }
+        }
+    
+    }
+}
+
+@media screen and (max-width: 1195px) and (orientation: landscape) {
+    .benefits--section {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f7f7f7;
+        padding: 0;
+        padding: 20px 0 20px 0;
+    
+        .benefits--position {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+    
+        .benefit--box {
+            width: 100%;
+            height: 210px;
+            background-color: white;
+            border-radius: 3px;
+            margin: 20px 0 20px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            padding: 0px;
+        }
+    
+        .text {
+            width: 60%;
+            margin: 0;
+            padding: 20px 20px 20px 20px ;
+    
+            h3 {
+                font-size: 24px;
+                font-weight: 600;
+                padding-bottom: 10px;
+            }
+            
+            p {
+                font-size: 14px;
+                padding-bottom: 10px;
+                max-width: 400px;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 400;
+                line-height: 20px;
+            }
+    
+            div {
+                content: '';
+                width: 70%;
+                border-radius: 4px;
+                border-top: 2px solid;
+                border-bottom: 2px solid;
+            }
+    
+            .line1 {
+                border-color: #FB3B64;
+            }
+    
+            .line2 {
+                border-color: #08A6E4;
+            }
+    
+            .line3 {
+                border-color: #e8e9ed;
+            }
+        }
+    
+        .image1, .image2, .image3 {
+            width: 60%;
+            height: 150px;
+            content: '';
+        }
+    
+        .image1 {
+            background-image: url(/src/scss/assets/Macbook.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            z-index: 2;
+        }
+    
+    
+        .decoration1 {
+            width: 100px;
+            height: 100px;
+            background-color: #FB3B64;
+            border-radius: 10px;
+            transform: rotate(45deg);
+            position: absolute;
+            right: 120px;
+            top: 20px;
+            z-index: 1;
+            
+        }
+    
+        .image2 {
+            background-image: url(/src/scss/assets/iPhone.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            z-index: 2;
+            height: 180px;
+        }
+    
+        .decoration2 {
+            width: 180px;
+            height: 180px;
+            background-color: #07ACE6;
+            border-radius: 50%;
+            position: absolute;
+            top: 10px;
+            left: 120px;
+            z-index: 1;
+        }
+        
+        .last-row--box {
+            background: none;
+            padding: 0;
+    
+            .last-row {
+                background-color: white;
+                width: 70%;
+                height: 100%;
+                padding: 20px;
+                margin: 0;
+                border-top-right-radius: 4px;
+                border-bottom-right-radius: 4px;
+            }
+    
+            .image3 {
+                background-color: #55DFB4;
+                border-radius: 0;
+                border-top-left-radius: 4px;
+                border-bottom-left-radius: 4px;
+                margin-left: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+    
+                .main-image {
+                    background-image: url(/src/scss/assets/Trumpet.png);
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    width: 100%;
+                    height: 120px;
+                    background-position: center;
+                    background-position-y: 15px;
+                    position: static;
+                    
+                }
+            }
+        }
+    
+    }
+}
+
+@media screen and (max-width: 860px) and (orientation: landscape) {
+    .benefits--section {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f7f7f7;
+        padding: 0;
+        padding: 20px 0 20px 0;
+    
+        .benefits--position {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+    
+        .benefit--box {
+            width: 100%;
+            height: 210px;
+            background-color: white;
+            border-radius: 3px;
+            margin: 20px 0 20px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            padding: 0px;
+        }
+    
+        .text {
+            width: 60%;
+            margin: 0;
+            padding: 20px 20px 20px 20px ;
+    
+            h3 {
+                font-size: 24px;
+                font-weight: 600;
+                padding-bottom: 10px;
+            }
+            
+            p {
+                font-size: 14px;
+                padding-bottom: 10px;
+                max-width: 400px;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 400;
+                line-height: 20px;
+            }
+    
+            div {
+                content: '';
+                width: 70%;
+                border-radius: 4px;
+                border-top: 2px solid;
+                border-bottom: 2px solid;
+            }
+    
+            .line1 {
+                border-color: #FB3B64;
+            }
+    
+            .line2 {
+                border-color: #08A6E4;
+            }
+    
+            .line3 {
+                border-color: #e8e9ed;
+            }
+        }
+    
+        .image1, .image2, .image3 {
+            width: 60%;
+            height: 150px;
+            content: '';
+        }
+    
+        .image1 {
+            background-image: url(/src/scss/assets/Macbook.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            z-index: 2;
+        }
+    
+    
+        .decoration1 {
+            width: 100px;
+            height: 100px;
+            background-color: #FB3B64;
+            border-radius: 10px;
+            transform: rotate(45deg);
+            position: absolute;
+            right: 60px;
+            top: 20px;
+            z-index: 1;
+            
+        }
+    
+        .image2 {
+            background-image: url(/src/scss/assets/iPhone.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            z-index: 2;
+            height: 180px;
+        }
+    
+        .decoration2 {
+            width: 180px;
+            height: 180px;
+            background-color: #07ACE6;
+            border-radius: 50%;
+            position: absolute;
+            top: 10px;
+            left: 70px;
+            z-index: 1;
+        }
+        
+        .last-row--box {
+            background: none;
+            padding: 0;
+    
+            .last-row {
+                background-color: white;
+                width: 70%;
+                height: 100%;
+                padding: 20px;
+                margin: 0;
+                border-top-right-radius: 4px;
+                border-bottom-right-radius: 4px;
+            }
+    
+            .image3 {
+                background-color: #55DFB4;
+                border-radius: 0;
+                border-top-left-radius: 4px;
+                border-bottom-left-radius: 4px;
+                margin-left: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+    
+                .main-image {
+                    background-image: url(/src/scss/assets/Trumpet.png);
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    width: 100%;
+                    height: 120px;
+                    background-position: center;
+                    background-position-y: 15px;
+                    position: static;
+                    
+                }
+            }
+        }
+    
+    }
+}

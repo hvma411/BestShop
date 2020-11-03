@@ -16,7 +16,6 @@
                 padding-bottom: 50px;
             }
         }
-    
         .options--box {
             width: 100%;
             height: auto;
@@ -395,7 +394,7 @@
 @media screen and (min-width: 780px) and (max-width: 1195px) and (orientation: landscape) {
     .prices--section {
         width: 100%;
-        height: auto;
+        height: auto; 
         display: flex;
         justify-content: center;
         align-items: center;

@@ -27,7 +27,7 @@ header {
 
     .logo--box {
         width: 50%;
-
+        padding-left: 15px;
         .logo {
             font-size: 32px;
             color: #08A6E4;
@@ -35,6 +35,10 @@ header {
         }
     }
     
+    .hamburger-menu-wrapper {
+        display: none;
+    }
+
     .nav--box {
         width: 50%;
         display: flex;
